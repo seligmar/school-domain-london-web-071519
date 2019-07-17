@@ -25,6 +25,7 @@ def grade
   @grade = grade
   binding.pry
 end 
+
  # binding.pry
 #  @roster = roster
  # @grade = grade 
