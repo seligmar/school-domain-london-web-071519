@@ -26,7 +26,7 @@ end
 
 def sort 
   @roster.each do |x, y|
-    @roster[x] << y.sort!  
+    @roster[x] << y.sort  
     
    # binding.pry
   end 
