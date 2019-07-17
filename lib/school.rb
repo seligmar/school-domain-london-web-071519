@@ -28,9 +28,9 @@ def sort
   @roster.each do |x, y|
     @roster[x] << y.sort!  
     
-    binding.pry
+   # binding.pry
   end 
-  @roster[@grade].sort!
+ # @roster[@grade].sort!
  # @roster 
  # binding.pry
   
