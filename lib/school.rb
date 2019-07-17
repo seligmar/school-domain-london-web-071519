@@ -25,6 +25,7 @@ def grade(grade)
 end 
 
 def sort 
+  @sorted_roster = sorted_roster
   @roster.each do |x, y|
     binding.pry
   end 
