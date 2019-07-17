@@ -25,15 +25,9 @@ def grade(grade)
 end 
 
 def sort 
-  @roster.each do |x, y|
-    @roster[x] = y.sort  
-    
-   # binding.pry
+    @roster.each do |grades, names|
+    @roster[grades] = names.sort  
   end 
- # @roster[@grade].sort!
- # @roster 
- # binding.pry
-  
 end 
 
 end 
