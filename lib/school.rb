@@ -26,6 +26,7 @@ end
 
 def sort 
   @roster[@grade]
+
 end 
 
 end 
