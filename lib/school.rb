@@ -26,7 +26,10 @@ end
 
 def sort 
   @sorted_roster = sorted_roster
+  @sorted_roster = {}
   @roster.each do |x, y|
+    @roster[x] << y.sort 
+    
     binding.pry
   end 
   @roster[@grade].sort!
