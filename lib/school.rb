@@ -26,7 +26,7 @@ end
 
 def sort 
   @roster[@grade].sort!
-  @roster 
+ # @roster 
  # binding.pry
   
 end 
