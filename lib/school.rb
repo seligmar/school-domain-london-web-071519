@@ -19,9 +19,8 @@ class School
    end 
   end 
 
-def grade
- # @grade = grade
-  binding.pry
+def grade(grade)
+  @grade = grade
 end 
 
 end 
