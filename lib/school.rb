@@ -24,6 +24,10 @@ def grade(grade)
   @roster[@grade] 
 end 
 
+def sort 
+  
+end 
+
 end 
  # binding.pry
 #  @roster = roster
