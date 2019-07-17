@@ -25,8 +25,8 @@ def grade(grade)
 end 
 
 def sort 
-  new_roster = @roster[@grade].sort 
-  @roster[new_roster] 
+  @roster[@grade].sort!
+  @roster 
  # binding.pry
   
 end 
