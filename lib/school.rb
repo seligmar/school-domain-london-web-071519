@@ -19,13 +19,12 @@ class School
    end 
   end 
 
-end 
-
 def grade
  # @grade = grade
   binding.pry
 end 
 
+end 
  # binding.pry
 #  @roster = roster
  # @grade = grade 
