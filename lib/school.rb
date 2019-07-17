@@ -31,7 +31,3 @@ def sort
 end 
 
 end 
- # binding.pry
-#  @roster = roster
- # @grade = grade 
-
