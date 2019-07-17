@@ -25,8 +25,8 @@ def grade(grade)
 end 
 
 def sort 
-  @sorted_roster = sorted_roster
-  @sorted_roster = {}
+  @sort = sort
+  @sort = {}
   @roster.each do |x, y|
     @roster[x] << y.sort 
     
